@@ -9,6 +9,30 @@ Your robot has been kidnapped and transported to a new location! Luckily it has 
 
 In this project you will implement a 2 dimensional particle filter in C++. Your particle filter will be given a map and some initial localization information (analogous to what a GPS would provide). At each time step your filter will also get observation and control data. 
 
+## Final Result
+
+root@DESKTOP: T2P3-CarND-Kidnapped-Vehicle-Project# ./run.sh
+
+Time step: 0
+Cumulative mean weighted error: x 0.12115 y 0.026221 yaw 0.000204738
+Time step: 1
+Cumulative mean weighted error: x 0.132978 y 0.0657723 yaw 0.00153681
+Time step: 2
+Cumulative mean weighted error: x 0.141153 y 0.0567757 yaw 0.00192179
+Time step: 3
+
+......
+
+Time step: 2441
+Cumulative mean weighted error: x 0.108003 y 0.102833 yaw 0.00354149
+Time step: 2442
+Cumulative mean weighted error: x 0.108092 y 0.102824 yaw 0.00354518
+Time step: 2443
+Cumulative mean weighted error: x 0.108074 y 0.102837 yaw 0.00354821
+Runtime (sec): 12.25
+Success! Your particle filter passed!
+
+
 ## Running the Code
 Once you have this repository on your machine, `cd` into the repository's root directory and run the following commands from the command line:
 
